@@ -5,6 +5,95 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 16px/1.5; 
   margin: 0;
+  height: 100vh;
+  background-image: url("./../images/bgtile.png");
+  background-size: 100% 40%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}  
+
+h1 {
+  position: relative;
+  left: 35px;
+  top: 18px;
+  font-size: 22px;
+  width: 230px;
+  font-family: "Helvetica Neue";
+  color: #043f72;
+}
+
+p {
+  position: relative;
+  left: 35px;
+  top: 18px;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+#container > div {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 23px;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#Instagram-container {
+  width: 500px;
+}
+
+button {
+  padding: 12px 12px 12px 40px;
+  font-family: "Montserrat";
+  font-weight: 700;   
+  background: #42749c;
+  background-image: url("./../images/home.png");
+  background-image: url("./../images/home.png"), linear-gradient(#6993b3, #42749c);
+  background-repeat: no-repeat;
+  background-position: 10% 50%;
+  border-radius: 3px;
+  border: 1px solid #295d87;
+  color: #f6f7f8;
+  -webkit-box-shadow: 0 0 1px #08121b;
+  box-shadow: 0 0 1px #08121b; 
+  text-shadow: .5px .5px 1px #08121b;
+  
+}
+
+#capture {
+  background-image: url("./../images/frame.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+footer > ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+  font-family: "Helvetica Neue";
+  font-size: 11px;
+  position: relative;
+  top: 50px;
+  color: #1e6cac;
+  font-weight: 900;
+}
+
+li {
+  margin: 0 13px;
+}
+
+#entire {
+  position: relative;
+  top: -60px;
 }
